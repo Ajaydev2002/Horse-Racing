@@ -90,16 +90,16 @@
     align-items: start;
     position: relative;
     top: 35px;
-    right: 15px;
+    right: 8px;
     color: var(--bg-color1);
 }
-.dot-icon {
+.home-dot-icons i {
     padding: 5px;
 }
 .btn-home {
     padding: 10px;
     width: 300px;
-    margin-left: 20px;
+    margin-left: 28px;
 }
 
 
@@ -149,4 +149,10 @@
 }
 .about-dot-icons i {
     padding: 5px;
+}
+
+
+.performance-image {
+    width: 200px;
+    height: 400px;
 }
