@@ -25,9 +25,11 @@
     cursor: pointer;
     color: #fff;
     border: none;
-    font-size: 25px;
     border-radius: 25px;
     padding: 10px;
+}
+.btn:hover {
+    cursor: pointer;
 }
 
 #header {
@@ -100,6 +102,7 @@
     padding: 10px;
     width: 300px;
     margin-left: 28px;
+    font-size: 25px;
 }
 
 
@@ -142,7 +145,6 @@
 .about-icons {
     color: var(--bg-color1);
     font-size: 8px;
-    align-items: start;
     position: relative;
     top: 25px;
     left: 1px;
@@ -152,7 +154,279 @@
 }
 
 
+#performance {
+    margin-top: 30px;
+}
+.performance-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.performance-dot-icons {
+    font-size: 8px;
+    position: relative;
+    top: 25px;
+    left: 380px;
+    color: var(--bg-color2);
+    width: 80px;
+}
+.performance-dot-icons i {
+    padding: 5px;
+}
+.perform-box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+.perform-box {
+    border: 2px solid var(--bg-color1);
+    padding: 16px;
+    border-radius: 10px;
+}
 .performance-image {
-    width: 200px;
-    height: 400px;
+    width: 250px;
+    height: 170px;
+    border-radius: 10px;
+}
+.horse-name {
+    font-size: 20px;
+    font-weight: bold;
+    padding-block: 6px;
+}
+.horse-speed {
+    font-size: 18px;
+}
+.horse-speed i {
+    color: var(--bg-color1);
+}
+.horse-time {
+    font-size: 18px;
+    padding-block: 6px;
+}
+.horse-time i {
+    color: var(--bg-color1);
+}
+.performbtn {
+    width: 100%;
+    font-size: 18px;
+}
+
+.performbtn-secondary {
+    width: 250px;
+    font-size: 18px;
+}
+
+.perform-last-section {
+    background-color: var(--bg-color2);
+    text-align: center;
+    margin-block: 50px;
+    font-size: 20px;
+    padding-block: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+#our-best-horses {
+    background-color: var(--bg-color1);
+}
+.best-heading {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    color: #fff;
+}
+.best-dot-icons {
+    font-size: 8px;
+    position: relative;
+    top: 25px;
+    left: 510px;
+    color: var(--bg-color2);
+    width: 80px;
+}
+.best-dot-icons i {
+    padding: 5px;
+}
+.best-box {
+    display: flex;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.best-horses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+}
+.best-horse-content {
+    padding: 11px;
+}
+.best-horse-image {
+    width: 150px;
+    height: 100%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.best-horse-content h2 {
+    font-size: 20px;
+}
+.best-horse-content p {
+    font-size: 14px;
+    padding-block: 5px;
+}
+.best-horse-btn {
+    font-size: 15px;
+    font-weight: bold;
+    padding-inline: 50px;
+}
+.page-change {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    font-size: 35px;
+}
+.page-previous {
+    color: var(--bg-color2);
+}
+.page-number {
+    color: #fff;
+}
+.page-next {
+    color: #f8f8f8;
+}
+
+
+.review-heading {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.review-dot-icons {
+    font-size: 8px;
+    position: relative;
+    top: 55px;
+    left: 560px;
+    color: var(--bg-color2);
+    width: 80px;
+}
+.review-dot-icons i {
+    padding: 5px;
+}
+.reviews-container {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 90px;
+    padding-inline: 80px;
+    margin-block: 20px;
+}
+.review-box {
+    border: 2px solid var(--bg-color1);
+    padding: 20px;
+    border-radius: 20px;
+}
+.review-icons {
+    color: var(--bg-color2);
+}
+.review-text {
+    font-size: 16px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+.review-date {
+    font-size: 16px;
+    padding-top: 15px;
+}
+.review-name {
+    font-size: 16px;
+    font-style: italic;
+    padding-top: 3px;
+}
+.review-page-change {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    font-size: 35px;
+}
+.review-page-previous {
+    color: var(--bg-color1);
+}
+.review-page-number {
+    color: var(--main-color);
+}
+.review-page-next {
+    color: var(--bg-color1); 
+}
+
+
+
+
+.tips-heading {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+.tips-dot-icons {
+    font-size: 8px;
+    position: relative;
+    top: 55px;
+    left: 510px;
+    color: var(--bg-color2);
+    width: 80px;
+}
+.tips-dot-icons i {
+    padding: 5px;
+}
+.tips-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-block: 20px;
+}
+.tips-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    background-color: var(--bg-color1);
+    padding: 20px;
+    border-radius: 10px;
+}
+.tips-text {
+    font-size: 18px;
+    color: #fff;
+}
+.tips-icon {
+    border: 1px solid #fff;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+
+
+#footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--bg-color2);
+    padding: 60px;
+}
+.footer-logo {
+    width: 60px;
+    height: 60px;
+}
+.footer-logo-context {
+    display: flex;
+    align-items: center;
+}
+.footer-navlist {
+    display: flex;
+    flex-direction: column;
+}
+.footer-navlist a {
+    color: var(--main-color);
 }
