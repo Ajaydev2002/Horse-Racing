@@ -17,7 +17,7 @@
                 <h2>RACE PICKS</h2>
             </div>
 
-            <nav class="header-navlist">
+            <nav class="navlist">
                 <a href="#">Home</a>
                 <a href="#">About us</a>
                 <a href="#">Performance of horse</a>
@@ -487,8 +487,16 @@
             </div>
 
         </footer>
-
     </div>
+
+    <script>
+        const navBtn = document.querySelector('.menu-btn')
+        const navList = document.querySelector('.navlist')
+
+        navBtn.addEventListener('click',function(){
+            navList.classList.toggle("active");
+        });
+    </script>
 
 </body>
 </html>
