@@ -166,14 +166,16 @@ body {
     position: relative;
 }
 .performance-heading {
-    text-align: center;
     margin-block: 50px;
     font-size: 40px;
 }
+.performance-heading-container {
+    display: flex;
+    justify-content: center;
+}
 .performance-icons {
     position: absolute;
-    top: -30px;
-    left: 360px;
+    transform: translate(-275px,20px);
 }
 .performance-dot-icons {
     font-size: 8px;
@@ -220,18 +222,21 @@ body {
     width: 100%;
     font-size: 18px;
 }
+.track-heading-container {
+    display: flex;
+    justify-content: center;
+}
 .track-heading {
-    text-align: center;
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-block: 50px;
+}
+.track-icons {
+    position: absolute;
+    transform: translate(-150px,20px);
 }
 .track-dot-icons {
     font-size: 8px;
-    position: relative;
-    top: 25px;
-    left: 480px;
     color: var(--bg-color2);
-    width: 80px;
 }
 .track-dot-icons i {
     padding: 5px;
@@ -269,20 +274,21 @@ body {
     position: relative;
 }
 .best-heading {
-    text-align: center;
     padding: 50px;
     font-size: 40px;
     color: #fff;
 }
+.best-heading-container {
+    display: flex;
+    justify-content: center;
+}
 .best-icons {
     position: absolute;
-    top: 20px;
-    left: 495px;
+    transform: translate(-140px,20px);
 }
 .best-dot-icons {
     font-size: 8px;
     color: var(--bg-color2);
-    width: 80px;
 }
 .best-dot-icons i {
     padding: 5px;
@@ -341,19 +347,20 @@ body {
     position: relative;
 }
 .review-heading {
-    text-align: center;
-    margin-top: 30px;
     font-size: 40px;
+    margin-top: 90px;
+}
+.review-heading-container {
+    display: flex;
+    justify-content: center;
 }
 .review-icons {
-    position: relative;
-    top: 55px;
-    left: 560px;
+    position: absolute;
+    transform: translate(-75px,60px);
 }
 .review-dot-icons {
     font-size: 8px;
     color: var(--bg-color2);
-    width: 80px;
 }
 .review-dot-icons i {
     padding: 5px;
@@ -411,19 +418,21 @@ body {
     position: relative;
 }
 .tips-heading {
-    text-align: center;
     margin-top: 30px;
     font-size: 40px;
     padding-top: 30px;
 }
+.tips-heading-container {
+    display: flex;
+    justify-content: center;
+}
 .tips-icons {
     position: absolute;
-    left: 500px;
+    transform: translate(-130px,30px);
 }
 .tips-dot-icons {
     font-size: 8px;
     color: var(--bg-color2);
-    width: 80px;
 }
 .tips-dot-icons i {
     padding: 5px;
@@ -551,8 +560,8 @@ body {
          padding-top: 10px;
      }  
      .home-image { 
-         height: 68vh;
-         width: 65vh;
+         height: 65vh;
+         width: 55vh;
          border-bottom-left-radius: 100px;
      }
      .btn-home {
@@ -596,8 +605,13 @@ body {
         font-size: 30px;
         padding-left: 35px;
     }
+    .performance-heading-container {
+        display: flex;
+        justify-content: center;
+    }
     .performance-icons {
-        left: 200px;
+        position: absolute;
+        transform: translate(-185px,20px);
     }
     .perform-box-container {
         display: flex;
@@ -627,12 +641,19 @@ body {
     .performbtn {
         font-size: 15px;
     }
-
     .track-heading {
         font-size: 30px;
     }
-    .track-dot-icons {
-        left: 300px;
+    .track-heading-container {
+        display: flex;
+        justify-content: center;
+    }
+    .track-icons {
+        position: absolute;
+        transform: translate(-115px,20px);
+    }
+    .track-box-container {
+        gap: 30px;
     }
     .performbtn-secondary {
         width: 200px;
@@ -646,8 +667,18 @@ body {
     .best-heading {
         font-size: 30px;
     }
+    .best-heading-container {
+        display: flex;
+        justify-content: center;
+    }
     .best-icons {
-        left: 300px;
+        position: absolute;
+        transform: translate(-105px,20px);
+    }
+    .best-horses-container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
     }
     .best-box {
         width: 500px;
@@ -660,10 +691,14 @@ body {
 
     .review-heading {
         font-size: 30px;
-    } 
+    }
+    .review-heading-container {
+        display: flex;
+        justify-content: center;
+    }
     .review-icons {
-        left: 350px;
-        width: 80px;
+        position: absolute;
+        transform: translate(-55px,60px);
     }
     .reviews-container {
         display: flex;
@@ -688,12 +723,18 @@ body {
     
     #betting-tips {
         margin-bottom: 45px;
+        position: relative;
      }
     .tips-heading {
         font-size: 30px;
     }
+    .tips-heading-container {
+        display: flex;
+        justify-content: center;
+    }
     .tips-icons {
-        left: 310px;
+        position: absolute;
+        transform: translate(-100px,30px);
     }
     .tips-text {
         font-size: 16px;
@@ -760,10 +801,10 @@ body {
          padding-top: 10px;
      }  
      .home-image { 
-         height: 60vh;
-         width: 50vh;
+         height: 50vh;
+         width: 47vh;
          border-radius: 50px;
-         margin-top: 20px;
+         margin-block: 20px;
      }
      .home-icons {
         display: none;
@@ -771,6 +812,7 @@ body {
      .btn-home {
         margin-top: 10px;
         font-size: 12px;
+        align-items: center;
      }
 
 
@@ -779,7 +821,7 @@ body {
         flex-direction: column-reverse;
      }
      .about-image {
-        width: 50vh;
+        width: 45vh;
         height: 320px;
         border-radius: 20px;
         margin-block: 10px;
@@ -804,15 +846,15 @@ body {
     }
 
 
-     .performance-icons {
-        left: 5px;
-     }
+    .performance-icons {
+        transform: translate(-145px,25px);
+    }
      .performance-dot-icons {
         font-size: 5px;
      }
      .performance-heading {
         font-size: 25px;
-        text-align: start;
+        margin-bottom: 30px;
      }
      .perform-box {
         padding: 10px;
@@ -822,13 +864,14 @@ body {
      }
      .track-heading {
         font-size: 25px;
-        text-align: start;
-        padding-left: 30px;
+        margin-bottom: 20px;
      }
+     .track-icons {
+        position: absolute;
+        transform: translate(-95px,25px);
+    }
      .track-dot-icons {
         font-size: 5px;
-        left: 2px;
-        top: 20px;
      }
      .track-box-container {
         justify-content: center;
@@ -845,18 +888,14 @@ body {
 
 
      .best-icons {
-        left: 2px;
-        top: 28px;
-        font-size: 5px;
-        align-items: start;
-     }
+        transform: translate(-105px,28px);
+    }
      .best-dot-icons {
         font-size: 5px;
      }
      .best-heading {
         font-size: 30px;
-        text-align: start;
-        padding-left: 30px;
+        margin-bottom: -30px;
      }
      .best-horses-container {
         display: flex;
@@ -889,19 +928,14 @@ body {
         font-size: 30px;
      }
 
-
      .review-icons {
-        font-size: 5px;
-        left: 2px;
-        top: 50px;
-     }
+        transform: translate(-45px,65px);
+    }
      .review-dot-icons {
         font-size: 5px;
-     }
+     }  
      .review-heading {
         font-size: 25px;
-        text-align: start;
-        padding-left: 30px;
      }
      .reviews-container {
         padding-inline: 10px;
@@ -918,18 +952,16 @@ body {
      #betting-tips {
         margin-bottom: 45px;
      }
-     .tips-icons {
-        left: 2px;
-        top: 5px;
-     }
      .tips-dot-icons {
         font-size: 5px;
      }
      .tips-heading {
         font-size: 30px;
-        text-align: start;
-        padding-left: 30px;
      }
+     .tips-icons {
+        position: absolute;
+        transform: translate(-100px,35px);
+    }
      .tips-content {
         width: 50vh;
      }
