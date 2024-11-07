@@ -343,12 +343,13 @@ body {
     color: #f8f8f8;
 }
 
+
 #review {
     position: relative;
 }
 .review-heading {
     font-size: 40px;
-    margin-top: 90px;
+    margin-top: 50px;
 }
 .review-heading-container {
     display: flex;
