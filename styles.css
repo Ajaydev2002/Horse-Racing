@@ -357,7 +357,7 @@ body {
 }
 .review-icons {
     position: absolute;
-    transform: translate(-75px,60px);
+    transform: translate(-75px,20px);
 }
 .review-dot-icons {
     font-size: 8px;
@@ -699,7 +699,7 @@ body {
     }
     .review-icons {
         position: absolute;
-        transform: translate(-55px,60px);
+        transform: translate(-55px,20px);
     }
     .reviews-container {
         display: flex;
@@ -930,7 +930,7 @@ body {
      }
 
      .review-icons {
-        transform: translate(-45px,65px);
+        transform: translate(-45px,25px);
     }
      .review-dot-icons {
         font-size: 5px;
