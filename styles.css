@@ -866,12 +866,13 @@ body {
      .best-box {
         display: flex;
         flex-direction: column-reverse;
+        width: 45vh;
         padding: 10px;
         border-radius: 20px;
         margin: 10px;
      }
      .best-horse-image {
-       width: 44vh;
+       width: 42vh;
         border-radius: 20px;
      }
      .best-horse-content h2 {
