@@ -39,7 +39,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline: 50px;
+    padding-inline:20px;
     top: 0;
 }
 .logo-content {
