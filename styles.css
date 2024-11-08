@@ -39,8 +39,9 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-inline:20px;
+    padding-inline:50px;
     top: 0;
+    margin-block: 20px;
 }
 .logo-content {
     display: flex;
@@ -49,10 +50,9 @@ body {
 .header-logo {
     width: 50px;
     height: 50px;
-    margin: 20px;
 }
 .navlist a {
-    font-size: 20px;
+    font-size: 18px;
     color: var(--main-color);
     margin: 15px;
 }
@@ -86,7 +86,7 @@ body {
    padding-inline: 60px;
 }
 .home-content h1 {
-    font-size: 40px;
+    font-size: 55px;
 }
 .home-content p {
     font-size: 16px;
@@ -95,6 +95,7 @@ body {
 .home-image { 
     height: 600px;
     border-bottom-left-radius: 110px;
+    margin-bottom: 40px;
 }
 .home-icons {
     font-size: 8px;
@@ -112,11 +113,15 @@ body {
     width: 300px;
     margin-left: 28px;
     font-size: 25px;
+    padding-block: 15px;
+    border-radius: 35px;
+    font-weight: bold;
 }
 
 
 #about-us {
     background-color: var(--bg-color2);
+    padding-block: 20px;
 }
 #about-us .about-us-container {
     display: flex;
@@ -124,7 +129,7 @@ body {
 }
 .about-image {
     width: 500px;
-    height: 450px;
+    height: 500px;
     margin-block: 50px;
     border-top-right-radius: 100px;
     border-bottom-right-radius: 100px;
@@ -134,12 +139,17 @@ body {
 }
 .about-heading {
     font-size: 40px;
+    font-weight: bold;
     padding-left: 30px;
+    margin-bottom: -12px;
 }
-.about-text p {
+.about-text {
     font-size: 18px;
     padding-block: 20px;
     padding-left: 30px;
+}
+.about-text p {
+    padding-top: 20px;
 }
 .about-review {
     font-size: 18px;
@@ -147,6 +157,8 @@ body {
     margin-left: 70px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
+    margin-block: 30px;
+    margin-bottom: 50px;
 }
 .about-review p {
     padding: 30px;
@@ -165,9 +177,11 @@ body {
 #performance {
     margin-top: 30px;
     position: relative;
+    padding-block: 30px;
 }
 .performance-heading {
     margin-block: 50px;
+    font-weight: bold;
     font-size: 40px;
 }
 .performance-heading-container {
@@ -188,8 +202,9 @@ body {
 }
 .perform-box-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 50px;
+    padding-inline: 50px;
 }
 .perform-box {
     border: 2px solid var(--bg-color1);
@@ -226,14 +241,16 @@ body {
 .track-heading-container {
     display: flex;
     justify-content: center;
+    padding-top: 30px;
 }
 .track-heading {
     font-size: 40px;
+    font-weight: bold;
     margin-block: 50px;
 }
 .track-icons {
     position: absolute;
-    transform: translate(-150px,20px);
+    transform: translate(-155px,20px);
 }
 .track-dot-icons {
     font-size: 8px;
@@ -245,9 +262,9 @@ body {
 .track-box-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 50px;
+    justify-content: space-between;
     margin-bottom: 50px;
+    padding-inline: 50px;
 }
 .track-box {
     border: 2px solid var(--bg-color1);
@@ -262,7 +279,7 @@ body {
 .perform-last-section {
     background-color: var(--bg-color2);
     text-align: center;
-    margin-block: 50px;
+    margin-block: 80px;
     font-size: 20px;
     padding-block: 10px;
     color: #fff;
@@ -276,12 +293,14 @@ body {
 }
 .best-heading {
     padding: 50px;
+    font-weight: bold;
     font-size: 40px;
     color: #fff;
 }
 .best-heading-container {
     display: flex;
     justify-content: center;
+    padding-top: 20px;
 }
 .best-icons {
     position: absolute;
@@ -296,7 +315,7 @@ body {
 }
 .best-box {
     display: flex;
-    width: 500px;
+    width: 580px;
     background-color: #fff;
     border-radius: 20px;
 }
@@ -304,7 +323,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 80px;
+    gap: 70px;
 }
 .best-horse-content {
     padding: 11px;
@@ -326,6 +345,7 @@ body {
     font-size: 15px;
     font-weight: bold;
     padding-inline: 50px;
+    margin-block: 10px;
 }
 .page-change {
     display: flex;
@@ -337,11 +357,17 @@ body {
 .page-previous {
     color: var(--bg-color2);
 }
+.page-previous:hover {
+    cursor: pointer;
+}
 .page-number {
     color: #fff;
 }
 .page-next {
     color: #f8f8f8;
+}
+.page-next {
+    cursor: pointer;
 }
 
 
@@ -350,11 +376,14 @@ body {
 }
 .review-heading {
     font-size: 40px;
+    font-weight: bold;
     margin-top: 50px;
 }
 .review-heading-container {
     display: flex;
     justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
 }
 .review-icons {
     position: absolute;
@@ -369,9 +398,9 @@ body {
 }
 .reviews-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 90px;
-    padding-inline: 80px;
+    padding-inline: 50px;
     margin-block: 20px;
 }
 .review-box {
@@ -402,9 +431,13 @@ body {
     gap: 20px;
     padding: 30px;
     font-size: 35px;
+    margin-bottom: 50px;
 }
 .review-page-previous {
     color: var(--bg-color1);
+}
+.review-page-previous:hover {
+    cursor: pointer;
 }
 .review-page-number {
     color: var(--main-color);
@@ -412,7 +445,9 @@ body {
 .review-page-next {
     color: var(--bg-color1); 
 }
-
+.review-page-next:hover {
+    cursor: pointer;
+}
 
 
 #betting-tips {
@@ -421,6 +456,7 @@ body {
 }
 .tips-heading {
     margin-top: 30px;
+    font-weight: bold;
     font-size: 40px;
     padding-top: 30px;
 }
@@ -444,16 +480,16 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
-    margin-block: 20px;
+    margin-block: 50px;
 }
 .tips-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 500px;
+    width: 600px;
     background-color: var(--bg-color1);
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .tips-text {
     font-size: 18px;
@@ -468,12 +504,15 @@ body {
 }
 
 
-
 #footer {
-    display: flex;
-    justify-content: space-around;
     background-color: var(--bg-color2);
-    padding: 60px;
+    padding-inline: 70px;
+}
+.footer-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 30px;
 }
 .footer-logo {
     width: 60px;
@@ -555,10 +594,10 @@ body {
         padding-inline: 30px;
      }
      .home-content h1 {
-         font-size: 30px;
+         font-size: 50px;
      }
      .home-content p {
-         font-size: 15px;
+         font-size: 20px;
          padding-top: 10px;
      }  
      .home-image { 
@@ -568,7 +607,7 @@ body {
      }
      .btn-home {
         width: 200px;
-        font-size: 18px;
+        font-size: 20px;
     }
 
 
@@ -583,16 +622,15 @@ body {
         padding-inline: 30px;
     }
     .about-heading {
-        font-size: 30px;
+        font-size: 35px;
         padding-left: 30px;
     }
     .about-text p {
-        font-size: 15px;
-        padding-block: 20px;
-        padding-left: 30px;
+        font-size: 20px;
+        padding-block: 10px;
     }
     .about-review {
-        font-size: 15px;
+        font-size: 20px;
         margin-left: 30px;  
         border-top-left-radius: 30px;
         border-bottom-left-radius: 30px;
@@ -604,7 +642,7 @@ body {
 
 
     .performance-heading {
-        font-size: 30px;
+        font-size: 35px;
         padding-left: 35px;
     }
     .performance-heading-container {
@@ -613,38 +651,39 @@ body {
     }
     .performance-icons {
         position: absolute;
-        transform: translate(-185px,20px);
+        transform: translate(-220px,20px);
     }
     .perform-box-container {
         display: flex;
         flex-wrap: wrap;
-        gap: 15px;
+        justify-content: center;
+        gap: 60px;
     }
     .perform-box {
         border: 2px solid var(--bg-color1);
         padding: 16px;
     }
     .performance-image {
-        width: 200px;
+        width: 250px;
         height: 150px;
     }
     .horse-name {
-        font-size: 18px;
+        font-size: 23px;
         font-weight: bold;
         padding-block: 6px;
     }
     .horse-speed {
-        font-size: 15px;
+        font-size: 20px;
     }
     .horse-time {
-        font-size: 15px;
+        font-size: 20px;
         padding-block: 6px;
     }
     .performbtn {
-        font-size: 15px;
+        font-size: 20px;
     }
     .track-heading {
-        font-size: 30px;
+        font-size: 35px;
     }
     .track-heading-container {
         display: flex;
@@ -652,22 +691,23 @@ body {
     }
     .track-icons {
         position: absolute;
-        transform: translate(-115px,20px);
+        transform: translate(-140px,20px);
     }
     .track-box-container {
-        gap: 30px;
+        justify-content: center;
+        gap: 60px;
     }
     .performbtn-secondary {
         width: 200px;
-        font-size: 15px;
+        font-size: 20px;
     }
     .perform-last-section {
-        font-size: 18px;
+        font-size: 23px;
     }
 
 
     .best-heading {
-        font-size: 30px;
+        font-size: 35px;
     }
     .best-heading-container {
         display: flex;
@@ -675,24 +715,30 @@ body {
     }
     .best-icons {
         position: absolute;
-        transform: translate(-105px,20px);
+        transform: translate(-125px,20px);
     }
     .best-horses-container {
         display: flex;
         justify-content: center;
         gap: 50px;
     }
+    .best-horse-content h2 {
+        font-size: 25px;
+    }
+    .best-horse-content p {
+        font-size: 20px;
+    }
     .best-box {
-        width: 500px;
+        width: 700px;
     }
     .best-horse-btn {
-        font-size: 15px;
+        font-size: 20px;
         padding-inline: 50px;
     }
 
 
     .review-heading {
-        font-size: 30px;
+        font-size: 35px;
     }
     .review-heading-container {
         display: flex;
@@ -700,7 +746,7 @@ body {
     }
     .review-icons {
         position: absolute;
-        transform: translate(-55px,20px);
+        transform: translate(-65px,20px);
     }
     .reviews-container {
         display: flex;
@@ -710,17 +756,17 @@ body {
         padding-inline: 30px;
     }
     .review-box {
-        width: 210px;
+        width: 300px;
     }
     .review-text {
-        font-size: 15px;
+        font-size: 20px;
         padding-top: 10px;
     }
     .review-date {
-        font-size: 16px;
+        font-size: 20px;
     }
     .review-name {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     #betting-tips {
@@ -728,7 +774,7 @@ body {
         position: relative;
      }
     .tips-heading {
-        font-size: 30px;
+        font-size: 35px;
     }
     .tips-heading-container {
         display: flex;
@@ -736,15 +782,22 @@ body {
     }
     .tips-icons {
         position: absolute;
-        transform: translate(-100px,30px);
+        transform: translate(-120px,30px);
     }
     .tips-text {
-        font-size: 16px;
+        font-size: 25px;
+    }
+
+    .footer-section {
+        align-items: center;
     }
 }
 
 @media (max-width:520px) {
-
+  
+    #header {
+        padding-inline: 10px;
+    }
     .header-logo {
         width: 30px;
         height:30px;
@@ -795,16 +848,19 @@ body {
         display: flex;
         flex-direction: column;
     }
+    .home-content {
+        padding-inline: 20px;
+    }
      .home-content h1 {
-         font-size: 25px;
+         font-size: 40px;
      }
      .home-content p {
-         font-size: 12px;
+         font-size: 15px;
          padding-top: 10px;
      }  
      .home-image { 
          height: 50vh;
-         width: 47vh;
+         width: 50vh;
          border-radius: 50px;
          margin-block: 20px;
      }
@@ -813,7 +869,7 @@ body {
      }
      .btn-home {
         margin-top: 10px;
-        font-size: 12px;
+        font-size: 16px;
         align-items: center;
      }
 
@@ -823,7 +879,7 @@ body {
         flex-direction: column-reverse;
      }
      .about-image {
-        width: 45vh;
+        width: 50vh;
         height: 320px;
         border-radius: 20px;
         margin-block: 10px;
@@ -838,31 +894,45 @@ body {
         font-size: 25px;
     }
     .about-text p {
-        font-size: 12px;
-        padding-block: 20px;
-        padding-left: 30px;
+        font-size: 15px;
+        padding-block: 10px;
+        padding-left: 2px;
     }
     .about-review {
-        font-size: 12px;
+        font-size: 15px;
         margin-bottom: 20px;
+        margin-top: -10px;
     }
 
 
     .performance-icons {
-        transform: translate(-145px,25px);
+        transform: translate(-90px,25px);
     }
      .performance-dot-icons {
         font-size: 5px;
      }
+     .performance-heading-container {
+        justify-content: center;
+        padding-inline: 10px;
+     }
      .performance-heading {
         font-size: 25px;
         margin-bottom: 30px;
+        text-align: center;
+     }
+     .perform-box-container {
+        justify-content: center;
+        padding-inline: 10px;
      }
      .perform-box {
         padding: 10px;
+        width: 55vh;
      }
      .performance-image {
-        width: 40vh;
+        width: 100%;
+     }
+     .performbtn {
+        font-size: 16px;
      }
      .track-heading {
         font-size: 25px;
@@ -877,12 +947,14 @@ body {
      }
      .track-box-container {
         justify-content: center;
+        padding-inline: 10px;
      }
      .track-box {
-        width: 43vh;
+        width: 50vh;
      }
      .performbtn-secondary {
         width: 100%;
+        font-size: 16px;
      }
      .perform-last-section {
         font-size: 15px;
@@ -903,28 +975,27 @@ body {
         display: flex;
         justify-content: center;
         gap: 20px;
+        padding-inline: 10px;
      }
      .best-box {
         display: flex;
         flex-direction: column-reverse;
-        width: 45vh;
         padding: 10px;
         border-radius: 20px;
-        margin: 10px;
      }
      .best-horse-image {
-       width: 42vh;
+        width: 100%;
         border-radius: 20px;
      }
      .best-horse-content h2 {
         font-size: 18px;
      }
      .best-horse-content p {
-        font-size: 12px;
+        font-size: 16px;
      }
      .best-horse-btn {
         width: 100%;
-        font-size: 15px;
+        font-size: 16px;
      }
      .page-change {
         font-size: 30px;
@@ -943,8 +1014,11 @@ body {
         padding-inline: 10px;
      }
      .review-box {
-        width: 52vh;
+        width: 55vh;
         padding-inline: 20px;
+     }
+     .review-text {
+        font-size: 16px;
      }
      .review-page-change {
         font-size: 30px;
@@ -968,7 +1042,7 @@ body {
         width: 50vh;
      }
      .tips-text {
-        font-size: 12px;
+        font-size: 16px;
      }
      .tips-icon {
         font-size: 15px;
@@ -979,7 +1053,13 @@ body {
      #footer {
         display: flex;
         flex-direction: column;
+        text-align: center;
         padding: 10px;
+     }
+     .footer-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
      }
      .footer-logo-content {
         justify-content: space-around;
@@ -996,6 +1076,9 @@ body {
      }
      .footer-contact-details {
         font-size: 15px;
+     }
+     .footer-logo-details {
+        margin-top: -40px;
      }
 
 
